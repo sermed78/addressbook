@@ -24,7 +24,7 @@ pipeline {
             steps{
                 sh """
                 echo "Perform Comllation"
-                mvn comppile
+                mvn compile
                 """
             }
        }
