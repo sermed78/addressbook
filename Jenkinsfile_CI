@@ -10,9 +10,9 @@ pipeline {
 
 
 
-           maven 'maven' 
+           maven 'localMaven' 
 
-           jdk 'java8'
+           jdk 'localJava'
 
     }
 
